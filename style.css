@@ -1,0 +1,52 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.websiteForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:grey;
+   padding: 0.5rem 1rem;
+   color:white;
+   
+   
+}
+
+.formList{
+
+}
+
+.result{
+
+    word-wrap: break-word;
+}
+
+.websiteForm > label {
+    margin-top: 0.1rem;
+}
+
+.websiteForm > input {
+    margin-bottom: 0.5rem;
+    padding: 0.4rem;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+#citationResult {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.finalCitation{
+    border:2px solid grey;
+}
+
+.generatedResult{
+    border:1px solid grey;
+    padding: 4rem;;
+}
